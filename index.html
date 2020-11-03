@@ -110,7 +110,7 @@ h1,h2{
 </style>
 <script>
   //based on a pen by @robinselmer
-var url = "https://api.minetools.eu/ping/play.boomsmp.cf/25565";
+var url = "https://api.minetools.eu/ping/boomsmp.serv.gs/25565";
  
 $.getJSON(url, function(r) {
     //data is the JSON string
@@ -132,7 +132,7 @@ var pl5 = '';
 
           $('#sv').html('<b>Server MOTD:</b> '+r.description.replace(/§(.+?)/gi, '')+'<br><b>Server Version:</b> '+r.version.name+'<br><b>Players Online:</b> ' + r.players.online+pl+pl2+pl3+pl4+pl5);
 setInterval(() => {
-  var url1 = "https://api.minetools.eu/ping/play.boomsmp.cf/25565";
+  var url1 = "https://api.minetools.eu/ping/boomsmp.serv.gs/25565";
 
   $.getJSON(url1, function(b) {
   var al = '';
