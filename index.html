@@ -134,11 +134,11 @@ var pl3 = '';
 var pl4 = '';
 var pl5 = '';
 
- if(r.players.sample.length > 0 ){ pl = '<br>Name: '+r.players.sample[0].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[0].name}/30.png">`;  } 
- if(r.players.sample.length > 1 ){ pl2 = '<br>Name: '+r.players.sample[1].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[1].name}/30.png">`;  }
-  if(r.players.sample.length > 2 ){ pl3 = '<br>Name: '+r.players.sample[2].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[2].name}/30.png">`;  } 
- if(r.players.sample.length > 3 ){ pl4 = '<br>Name: '+r.players.sample[3].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[3].name}/30.png">`; } 
-   if(r.players.sample.length > 4 ){ pl5 = '<br>Name: '+r.players.sample[4].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[4].name}/30.png">`;  } 
+ if(r.players.sample.length > 0 ){ pl = '<br>Name: '+r.players.sample[0].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[0].name}/120.png">`;  } 
+ if(r.players.sample.length > 1 ){ pl2 = '<br>Name: '+r.players.sample[1].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[1].name}/120.png">`;  }
+  if(r.players.sample.length > 2 ){ pl3 = '<br>Name: '+r.players.sample[2].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[2].name}/120.png">`;  } 
+ if(r.players.sample.length > 3 ){ pl4 = '<br>Name: '+r.players.sample[3].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[3].name}/120.png">`; } 
+   if(r.players.sample.length > 4 ){ pl5 = '<br>Name: '+r.players.sample[4].name + `<img id="sq" src="https://minotar.net/helm/${r.players.sample[4].name}/120.png">`;  } 
 
           $('#sv').html('<b>Server MOTD:</b> '+r.description.replace(/§(.+?)/gi, '')+'<br><b>Server Version:</b> '+r.version.name+'<br><b>Players Online:</b> ' + r.players.online+pl+pl2+pl3+pl4+pl5);
 setInterval(() => {
@@ -151,11 +151,11 @@ var al3 = '';
 var al4 = '';
 var al5 = '';
 
- if(b.players.sample.length > 0 ){ al = '<br>Name: '+b.players.sample[0].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[0].name}/30.png">`;  } 
- if(b.players.sample.length > 1 ){ al2 = '<br>Name: '+b.players.sample[1].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[1].name}/30.png">`;  }
-  if(b.players.sample.length > 2 ){ al3 = '<br>Name: '+b.players.sample[2].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[2].name}/30.png">`;  } 
- if(b.players.sample.length > 3 ){ al4 = '<br>Name: '+b.players.sample[3].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[3].name}/30.png">`;  } 
-   if(b.players.sample.length > 4 ){ al5 = '<br>Name: '+b.players.sample[4].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[4].name}/30.png">`;  } 
+ if(b.players.sample.length > 0 ){ al = '<br>Name: '+b.players.sample[0].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[0].name}/120.png">`;  } 
+ if(b.players.sample.length > 1 ){ al2 = '<br>Name: '+b.players.sample[1].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[1].name}/120.png">`;  }
+  if(b.players.sample.length > 2 ){ al3 = '<br>Name: '+b.players.sample[2].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[2].name}/120.png">`;  } 
+ if(b.players.sample.length > 3 ){ al4 = '<br>Name: '+b.players.sample[3].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[3].name}/120.png">`;  } 
+   if(b.players.sample.length > 4 ){ al5 = '<br>Name: '+b.players.sample[4].name + `<img id="sq" src="https://minotar.net/helm/${b.players.sample[4].name}/120.png">`;  } 
 
           $('#sv').html('<b>Server MOTD:</b> '+b.description.replace(/§(.+?)/gi, '')+'<br><b>Server Version:</b> '+b.version.name+'<br><b>Players Online:</b> ' + b.players.online+al+al2+al3+al4+al5);
   });
