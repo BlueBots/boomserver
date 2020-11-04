@@ -55,6 +55,8 @@ position:absolute;
           animation: fadein 2s;
   overflow:hidden;
   z-index: 999;
+    transform: translatey(0px);
+	animation: float 7s ease-in-out infinite;
 }
 
 .header {
@@ -116,7 +118,18 @@ position:absolute;
   line-height:30px;
   color:#000000
 }
+@keyframes float {
+	0% {
 
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 </style>
 <script>
   //based on a pen by @robinselmer
